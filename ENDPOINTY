@@ -1,0 +1,14 @@
+WSZYSTKIE DOSTĘPNE WALUTY
+
+http://localhost:8080/app/exchange/listAllCurrencies
+
+AKTUALNE KURSY WALUT
+
+http://localhost:8080/app/exchange/listActualExchangeRates
+
+PRZELICZENIE WALUT
+	1. ILOŚĆ WALUTY KTÓRĄ CHCEMY WYMIENIĆ -> amount=0.1
+	2. WALUTA KTÓRĄ MAMY -> currencyFrom=GBP
+	3. wALUTA KTÓRĄ CHCEMY -> currencyTo=USD
+
+http://localhost:8080/app/exchange/calculateExchangeRate?amount=0.1&currencyFrom=GBP&currencyTo=USD
